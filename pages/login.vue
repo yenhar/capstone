@@ -1,0 +1,136 @@
+<template>
+  <div class="flex flex-col min-h-screen">
+    <!-- Main content -->
+    <div class="flex-grow">
+      <!-- Your existing content here -->
+      <nav class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+        <div class="flex justify-end items-center px-44  h-16">
+          <div class="px-5 font-bold text-custom-darkbrown cursor-pointer hover:bg-gray-100 rounded-md transition duration-300 flex items-center h-full " @click="toggleForm">Sign Up</div>
+          <div class="px-5 font-bold text-custom-darkbrown cursor-pointer hover:bg-gray-100 rounded-md transition duration-300 flex items-center h-full">About</div>
+        </div>
+      </nav>
+      
+      <!-- Overlay for form -->
+      <div v-if="showForm" class="fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50 flex items-center justify-center z-50">
+        <!-- Form section -->
+        <div class="bg-white w-1/4 p-6 rounded-lg shadow-md relative">
+          <!-- Close button -->
+          <button class="absolute top-0 right-0 m-4 text-gray-600 hover:text-gray-800" @click="toggleForm">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+          
+          <div class="text-left text-3xl font-bold px-5 text-custom-darkbrown my-14">AuctionWave</div>
+          
+          <div class="flex justify-center mt-4">
+            <input type="text" id="fname" name="fname" class="border p-2 w-5/6 rounded-lg h-14" placeholder="Username">
+          </div>
+          
+          <div class="flex justify-center mt-4">
+            <input type="password" id="fname" name="fname" class="border p-2 w-5/6 rounded-lg h-14" placeholder="Password">
+          </div>
+          
+          <div class="flex justify-center mt-4">
+            <button type="button" class="border w-5/6 bg-custom-darkbrown rounded-lg text-white h-14 transition-shadow duration-300 hover:shadow-inner">Submit</button>  
+          </div>
+          
+          <div class="text-center mb-5 mt-4">
+            <a href="#" class="font-extralight text-center text-custom-darkbrown dark:text-custom-darkbrown hover:underline">Forgot Password</a>
+          </div>
+          
+          <div class="flex justify-center mt-4">
+            <hr class="w-5/6">
+          </div>
+          
+          <div class="flex justify-center my-8">
+            <button type="button" class="border w-5/6 bg-custom-yellow rounded-lg text-white h-14">Create new account</button>  
+          </div>
+          
+          <div class="flex justify-center mt-4 mb-8">
+            <img class="w-8 h-8 rounded-full" src="../public/images/Google.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- slideshow -->  
+    <div class="flex justify-center items-center py-10 w-full">
+          <div class="relative w-full max-w-full h-162 overflow-hidden">
+            <div v-for="(image, index) in images" :key="index" :class="['absolute top-0 left-0 w-full h-full transition-opacity duration-1000', { 'opacity-0': currentImage !== index, 'opacity-100': currentImage === index }]">
+              <img :src="`/images/${image}`" alt="Slideshow Image" class="w-full h-full object-cover">
+            </div>
+             <!-- Button container -->
+              <div class="absolute bottom-4 left-0 right-0 flex justify-center space-x-4 z-10">
+                <button @click="prevImage" class="bg-white bg-opacity-50 p-2 rounded-full">
+                  <img src="../public/images/Back.png" alt="Previous" class="w-6 h-6">
+                </button>
+                <button @click="nextImage" class="bg-white bg-opacity-50 p-2 rounded-full">
+                  <img src="../public/images/Forward.png" alt="Next" class="w-6 h-6">
+                </button>
+              </div>
+        </div>
+    </div>
+    
+    
+    <!-- Footer -->
+    <NuxtLayout name="footer"></NuxtLayout>
+  </div>
+</template> 
+
+<script setup>
+import { ref } from 'vue';
+
+const intervalDuration = 8000; // Interval duration in milliseconds (3 seconds)
+let intervalId = null;
+
+const showForm = ref(false);
+
+const images = ref([
+  'slideshow1.png',
+  'slideshow2.png',
+  'slideshow4.png'
+]);
+
+function startSlideshow() {
+  intervalId = setInterval(nextImage, intervalDuration);
+}
+
+function stopSlideshow() {
+  if (intervalId) {
+    clearInterval(intervalId);
+  }
+}
+
+onMounted(() => {
+  startSlideshow();
+});
+
+onUnmounted(() => {
+  stopSlideshow();
+});
+
+
+const currentImage = ref(0);
+
+function toggleForm() {
+  showForm.value = !showForm.value;
+}
+
+function nextImage() {
+  currentImage.value = (currentImage.value + 1) % images.value.length;
+}
+
+function prevImage() {
+  currentImage.value = (currentImage.value - 1 + images.value.length) % images.value.length;
+}
+
+
+
+</script>
+
+<style>
+/* Styles for the overlay */
+.bg-gray-900 {
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+}
+</style>
