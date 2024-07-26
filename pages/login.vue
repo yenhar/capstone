@@ -32,7 +32,7 @@
           </div>
           
           <div class="flex justify-center mt-4">
-            <button type="button" class="border w-5/6 bg-custom-bluegreen rounded-lg text-white h-14 transition-shadow duration-300 hover:shadow-inner">Log In</button>  
+            <button type="button" class="border w-5/6 bg-custom-bluegreen rounded-lg text-white h-14 transition-shadow duration-300 hover:shadow-inner ">Log In</button>  
           </div>
           
           <div class="text-center mb-5 mt-4">
@@ -44,7 +44,7 @@
           </div>
           
           <div class="flex justify-center my-8">
-            <button type="button" class="border w-5/6 bg-custom-green rounded-lg text-white h-14">Create new account</button>  
+            <button type="button" class="border w-5/6 bg-custom-green rounded-lg text-white h-14 hover:shadow-inner">Create new account</button>  
           </div>
           
           <div class="flex justify-center mt-4 mb-8">

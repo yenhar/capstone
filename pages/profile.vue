@@ -9,8 +9,8 @@
             <h1 class="text-3xl font-medium">Robert_Gyms</h1>
             <h1 class="text-sm font-medium text-gray-500 my-2">Auctioneer</h1>
             <div class="flex justify left">
-                <button type="button" class="border p-2 w-24 h-20 bg-custom-bluegreen rounded-lg text-white font-medium mr-2">Contact</button>
-                <button type="button" class="border-2 border-custom-bluegreen p-2 w-24 h-20 bg-white rounded-lg text-custom-bluegreen font-medium ml-2 outline-custom-bluegreen ">Resume</button>
+                <button type="button" class="border p-2 w-24 h-20 bg-custom-bluegreen rounded-lg text-white font-medium mr-2 hover:shadow-xl">Contact</button>
+                <button type="button" class="border-2 border-custom-bluegreen p-2 w-24 h-20 bg-white rounded-lg text-custom-bluegreen font-medium ml-2 outline-custom-bluegreen hover:shadow-xl">Resume</button>
             </div>
             
           </div>
@@ -51,11 +51,11 @@
           </div>
           <div class="flex justify left">
             <div class="my-6">
-                <button type="button" class="border leading-none border-black p-2 w-16  bg-white rounded-full text-black font-medium mx-1">Cars</button>
-                <button type="button" class="border leading-none border-black p-2 w-40  bg-white rounded-full text-black font-medium mx-1 outline-custom-bluegreen ">Heavy Equipment</button>
-                <button type="button" class="border leading-none border-black p-2 w-32  bg-white rounded-full text-black font-medium mx-1">Smartphones</button>
-                <button type="button" class="border leading-none border-black p-2 w-40  bg-white rounded-full text-black font-medium mx-1 outline-custom-bluegreen ">Real Estate</button>
-                <button type="button" class="border leading-none border-black p-2 w-28  bg-white rounded-full text-black font-medium mx-1">Antiques</button>
+                <button type="button" class="border leading-none border-gray-300 p-2 w-16  bg-white rounded-full text-gray-600 font-normal mx-1">Cars</button>
+                <button type="button" class="border leading-none border-gray-300 p-2 w-40  bg-white rounded-full text-gray-600 font-normal mx-1 outline-custom-bluegreen ">Heavy Equipment</button>
+                <button type="button" class="border leading-none border-gray-300 p-2 w-32  bg-white rounded-full text-gray-600 font-normal mx-1">Smartphones</button>
+                <button type="button" class="border leading-none border-gray-300 p-2 w-40  bg-white rounded-full text-gray-600 font-normal mx-1 outline-custom-bluegreen ">Real Estate</button>
+                <button type="button" class="border leading-none border-gray-300 p-2 w-28  bg-white rounded-full text-gray-600 font-normal mx-1">Antiques</button>
             </div>
                 
                 

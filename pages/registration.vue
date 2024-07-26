@@ -50,7 +50,7 @@
         
   
         <div class="flex justify-center mt-8">
-          <button type="button" class="border p-2 w-full bg-custom-bluegreen rounded-lg text-white h-14 m-12">Submit</button>
+          <button type="button" class="border p-2 w-full bg-custom-bluegreen rounded-lg text-white h-14 m-12 hover:shadow-inner">Submit</button>
         </div>
       </div>
     </NuxtLayout>   

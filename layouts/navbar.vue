@@ -13,19 +13,24 @@
           </button>
         </div>
         <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
-          <li><a class="text-sm text-gray-600 font-bold hover:text-gray-500" href="#">Home</a></li>
+          <li><a class="text-sm text-gray-600 font-bold hover:text-custom-bluegreen" href="#">Home</a></li>
           <li class="text-gray-300"></li>
-          <li><a class="text-sm text-gray-600 font-bold hover:text-gray-500" href="#">Auctions</a></li>
+          <li><a class="text-sm text-gray-600 font-bold hover:text-custom-bluegreen" href="#">Auctions</a></li>
           <li class="text-gray-300"></li>
-          <li><a class="text-sm text-gray-600 font-bold hover:text-gray-500" href="#">FAQS</a></li>
+          <li><a class="text-sm text-gray-600 font-bold hover:text-custom-bluegreen" href="#">FAQS</a></li>
           <li class="text-gray-300"></li>
-          <li><a class="text-sm text-gray-600 font-bold hover:text-gray-500" href="#">Contact Us</a></li>
+          <li><a class="text-sm text-gray-600 font-bold hover:text-custom-bluegreen" href="#">Contact Us</a></li>
           <li class="text-gray-300"></li>
         </ul>
-        <button type="button" class="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
-          <span class="sr-only">Open user menu</span>
-          <img class="w-10 h-10 rounded-full" src="../public/images/Mizuho.jpg">
-        </button>
+        <div class="flex items-center space-x-4">
+            <div class="p-2  cursor-pointer hover:bg-gray-300 rounded-full transition duration-300">
+                <img class="w-6 h-6" src="../public/images/Notification.png" alt="Notification Icon">
+            </div>
+            <button type="button" class="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
+              <span class="sr-only">Open user menu</span>
+              <img class="w-9 h-9 rounded-full" src="../public/images/Mizuho.jpg">
+            </button>
+        </div>
       </nav>
       <div>
         <slot/>
