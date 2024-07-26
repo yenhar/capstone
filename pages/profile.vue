@@ -9,8 +9,8 @@
             <h1 class="text-3xl font-medium">Robert_Gyms</h1>
             <h1 class="text-sm font-medium text-gray-500 my-2">Auctioneer</h1>
             <div class="flex justify left">
-                <button type="button" class="border p-2 w-24 h-20 bg-custom-bluegreen rounded-lg text-white font-medium mr-2 hover:shadow-xl">Contact</button>
-                <button type="button" class="border-2 border-custom-bluegreen p-2 w-24 h-20 bg-white rounded-lg text-custom-bluegreen font-medium ml-2 outline-custom-bluegreen hover:shadow-xl">Resume</button>
+                <button type="button" class="border p-2 w-24 h-20 bg-custom-bluegreen rounded-lg text-white font-medium mr-2 hover:shadow-inner">Contact</button>
+                <button type="button" class="border-2 border-custom-bluegreen p-2 w-24 h-20 bg-white rounded-lg text-custom-bluegreen font-medium ml-2 outline-custom-bluegreen hover:shadow-inner">Resume</button>
             </div>
             
           </div>

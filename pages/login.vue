@@ -5,8 +5,8 @@
       <!-- Your existing content here -->
       <nav class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
         <div class="flex justify-end items-center px-44  h-16">
-          <div class="px-5 font-bold text-black cursor-pointer hover:bg-gray-100 rounded-md transition duration-300 flex items-center h-full " @click="toggleForm">Sign Up</div>
-          <div class="px-5 font-bold text-black cursor-pointer hover:bg-gray-100 rounded-md transition duration-300 flex items-center h-full">About</div>
+          <div class="px-5 font-bold text-black cursor-pointer hover:bg-gray-100 rounded-md transition duration-300 flex items-center h-5/6" @click="toggleForm">Sign Up</div>
+          <div class="px-5 font-bold text-black cursor-pointer hover:bg-gray-100 rounded-md transition duration-300 flex items-center h-5/6">About</div>
         </div>
       </nav>
       
@@ -24,11 +24,11 @@
           <div class="text-center text-3xl font-bold px-5 text-custom-bluegreen my-14">AuctionWave</div>
           
           <div class="flex justify-center mt-4">
-            <input type="text" id="fname" name="fname" class="border p-2 w-5/6 rounded-lg h-14" placeholder="Username">
+            <input type="text" id="fname" name="fname" class="border p-2 w-5/6 rounded-lg h-14 focus:outline-none focus:border-custom-bluegreen focus:ring-1 focus:ring-custom-bluegreen" placeholder="Username">
           </div>
           
           <div class="flex justify-center mt-4">
-            <input type="password" id="fname" name="fname" class="border p-2 w-5/6 rounded-lg h-14" placeholder="Password">
+            <input type="password" id="fname" name="fname" class="border p-2 w-5/6 rounded-lg h-14 focus:outline-none focus:border-custom-bluegreen focus:ring-1 focus:ring-custom-bluegreen" placeholder="Password">
           </div>
           
           <div class="flex justify-center mt-4">
@@ -128,8 +128,8 @@ let intervalId = null;
 const showForm = ref(false);
 
 const images = ref([
-  'slideshow1.png',
-  'slideshow2.png',
+  'poster1.png',
+  'poster2.png',
   'slideshow4.png'
 ]);
 

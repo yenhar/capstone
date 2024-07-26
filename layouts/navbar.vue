@@ -13,14 +13,22 @@
           </button>
         </div>
         <ul class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
-          <li><a class="text-sm text-gray-600 font-bold hover:text-custom-bluegreen" href="#">Home</a></li>
-          <li class="text-gray-300"></li>
-          <li><a class="text-sm text-gray-600 font-bold hover:text-custom-bluegreen" href="#">Auctions</a></li>
-          <li class="text-gray-300"></li>
-          <li><a class="text-sm text-gray-600 font-bold hover:text-custom-bluegreen" href="#">FAQS</a></li>
-          <li class="text-gray-300"></li>
-          <li><a class="text-sm text-gray-600 font-bold hover:text-custom-bluegreen" href="#">Contact Us</a></li>
-          <li class="text-gray-300"></li>
+            <li>
+              <a class="px-5 py-5 text-sm text-gray-600 font-bold cursor-pointer hover:bg-gray-100 rounded-md transition duration-300 flex items-center h-full" href="#">Home</a>
+            </li>
+            <li class="text-gray-300"></li>
+            <li>
+              <a class="px-5 py-5 text-sm text-gray-600 font-bold cursor-pointer hover:bg-gray-100 rounded-md transition duration-300 flex items-center h-full" href="#">Auctions</a>
+            </li>
+            <li class="text-gray-300"></li>
+            <li>
+              <a class="px-5 py-5 text-sm text-gray-600 font-bold cursor-pointer hover:bg-gray-100 rounded-md transition duration-300 flex items-center h-full" href="#">FAQS</a>
+            </li>
+            <li class="text-gray-300"></li>
+            <li>
+              <a class="px-5 py-5 text-sm text-gray-600 font-bold cursor-pointer hover:bg-gray-100 rounded-md transition duration-300 flex items-center h-full" href="#">Contact Us</a>
+            </li>
+            <li class="text-gray-300"></li>
         </ul>
         <div class="flex items-center space-x-4">
             <div class="p-2  cursor-pointer hover:bg-gray-300 rounded-full transition duration-300">

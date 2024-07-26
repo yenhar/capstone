@@ -21,19 +21,19 @@
         </div>
   
         <div class="flex justify-left mt-4 mx-10">
-          <input type="text" id="username" name="username" class="border p-2 w-2/3 rounded-lg h-14 mx-2" placeholder="Username">
+          <input type="text" id="username" name="username" class="border p-2 w-2/3 rounded-lg h-14 mx-2 focus:outline-none focus:border-custom-bluegreen focus:ring-1 focus:ring-custom-bluegreen" placeholder="Username">
         </div>
   
         <div class="flex justify-center mt-4 mx-12 space-x-2">
-          <input type="text" id="firstname" name="firstname" class="border p-2 w-full rounded-lg h-14" placeholder="First name">
-          <input type="text" id="lastname" name="lastname" class="border p-2 w-full rounded-lg h-14" placeholder="Last name">
-          <input type="text" id="middlename" name="middlename" class="border p-2 w-full rounded-lg h-14" placeholder="Middle name">
+          <input type="text" id="firstname" name="firstname" class="border p-2 w-full rounded-lg h-14 focus:outline-none focus:border-custom-bluegreen focus:ring-1 focus:ring-custom-bluegreen" placeholder="First name">
+          <input type="text" id="lastname" name="lastname" class="border p-2 w-full rounded-lg h-14 focus:outline-none focus:border-custom-bluegreen focus:ring-1 focus:ring-custom-bluegreen" placeholder="Last name">
+          <input type="text" id="middlename" name="middlename" class="border p-2 w-full rounded-lg h-14 focus:outline-none focus:border-custom-bluegreen focus:ring-1 focus:ring-custom-bluegreen" placeholder="Middle name">
         </div>
   
         <div class="flex flex-wrap justify-left mt-2 mx-10 space-y-2">
-          <input type="text" id="email" name="email" class="border p-2 w-2/3 rounded-lg h-14 mx-2" placeholder="Email">
-          <input type="password" id="password" name="password" class="border p-2 w-full rounded-lg h-14 mx-2" placeholder="Password">
-          <input type="password" id="confirm-password" name="confirm-password" class="border p-2 w-2/3 rounded-lg h-14 mx-2" placeholder="Confirm Password">
+          <input type="text" id="email" name="email" class="border p-2 w-2/3 rounded-lg h-14 mx-2 focus:outline-none focus:border-custom-bluegreen focus:ring-1 focus:ring-custom-bluegreen" placeholder="Email">
+          <input type="password" id="password" name="password" class="border p-2 w-full rounded-lg h-14 mx-2 focus:outline-none focus:border-custom-bluegreen focus:ring-1 focus:ring-custom-bluegreen" placeholder="Password">
+          <input type="password" id="confirm-password" name="confirm-password" class="border p-2 w-2/3 rounded-lg h-14 mx-2 focus:outline-none focus:border-custom-bluegreen focus:ring-1 focus:ring-custom-bluegreen" placeholder="Confirm Password">
         </div>
   
         <div class="flex mt-2 mx-12 w-1/2">
