@@ -18,7 +18,7 @@
           <button class="absolute top-0 right-0 m-4 text-gray-600 hover:text-gray-800" @click="toggleForm">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-            </svg>
+            </svg>  
           </button>
           
           <div class="text-center text-3xl font-bold px-5 text-custom-bluegreen my-14">AuctionWave</div>
@@ -32,7 +32,7 @@
           </div>
           
           <div class="flex justify-center mt-4">
-            <button type="button" class="border w-5/6 bg-custom-bluegreen rounded-lg text-white h-14 transition-shadow duration-300 hover:shadow-inner">Submit</button>  
+            <button type="button" class="border w-5/6 bg-custom-bluegreen rounded-lg text-white h-14 transition-shadow duration-300 hover:shadow-inner">Log In</button>  
           </div>
           
           <div class="text-center mb-5 mt-4">
