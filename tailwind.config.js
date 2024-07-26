@@ -16,6 +16,10 @@ export default {
         'custom-yellow':'#FDB827',
         'custom-blue':'#21209C',
         'custom-fuschia':'#ADACFF',
+        'custom-bluegreen':'#005262',
+        'custom-gray':'#565656',
+        'custom-green':'#bde5ac',
+        'custom-green2':'#bde5ac',
       },
       fontSize: {
        

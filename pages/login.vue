@@ -5,8 +5,8 @@
       <!-- Your existing content here -->
       <nav class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
         <div class="flex justify-end items-center px-44  h-16">
-          <div class="px-5 font-bold text-custom-darkbrown cursor-pointer hover:bg-gray-100 rounded-md transition duration-300 flex items-center h-full " @click="toggleForm">Sign Up</div>
-          <div class="px-5 font-bold text-custom-darkbrown cursor-pointer hover:bg-gray-100 rounded-md transition duration-300 flex items-center h-full">About</div>
+          <div class="px-5 font-bold text-black cursor-pointer hover:bg-gray-100 rounded-md transition duration-300 flex items-center h-full " @click="toggleForm">Sign Up</div>
+          <div class="px-5 font-bold text-black cursor-pointer hover:bg-gray-100 rounded-md transition duration-300 flex items-center h-full">About</div>
         </div>
       </nav>
       
@@ -21,7 +21,7 @@
             </svg>
           </button>
           
-          <div class="text-left text-3xl font-bold px-5 text-custom-darkbrown my-14">AuctionWave</div>
+          <div class="text-center text-3xl font-bold px-5 text-custom-bluegreen my-14">AuctionWave</div>
           
           <div class="flex justify-center mt-4">
             <input type="text" id="fname" name="fname" class="border p-2 w-5/6 rounded-lg h-14" placeholder="Username">
@@ -32,11 +32,11 @@
           </div>
           
           <div class="flex justify-center mt-4">
-            <button type="button" class="border w-5/6 bg-custom-darkbrown rounded-lg text-white h-14 transition-shadow duration-300 hover:shadow-inner">Submit</button>  
+            <button type="button" class="border w-5/6 bg-custom-bluegreen rounded-lg text-white h-14 transition-shadow duration-300 hover:shadow-inner">Submit</button>  
           </div>
           
           <div class="text-center mb-5 mt-4">
-            <a href="#" class="font-extralight text-center text-custom-darkbrown dark:text-custom-darkbrown hover:underline">Forgot Password</a>
+            <a href="#" class="font-extralight text-center text-black dark:text-black hover:underline">Forgot Password</a>
           </div>
           
           <div class="flex justify-center mt-4">
@@ -44,7 +44,7 @@
           </div>
           
           <div class="flex justify-center my-8">
-            <button type="button" class="border w-5/6 bg-custom-yellow rounded-lg text-white h-14">Create new account</button>  
+            <button type="button" class="border w-5/6 bg-custom-green rounded-lg text-white h-14">Create new account</button>  
           </div>
           
           <div class="flex justify-center mt-4 mb-8">
@@ -70,6 +70,48 @@
               </div>
         </div>
     </div>
+
+    <div class="mx-auto justify-center items-center w-3/5 my-24">
+    <div class="flex justify-center">
+        <div class="text-center mx-4 w-3/5">
+            <img class="w-24 h-24 mx-auto" src="../public/images/usermanage.png">
+            <div class="mt-2">
+                Users are provided with the option to choose whether they want to register as an Auctioneer or a Bidder.
+            </div>
+        </div>
+        <div class="text-center mx-4 w-3/5">
+            <img class="w-24 h-24 mx-auto" src="../public/images/CMS.png">
+            <div class="mt-2">
+              a user-friendly interface specifically designed for auctioneers to create new auction listings.
+            </div>
+        </div>
+        <div class="text-center mx-4 w-3/5">
+            <img class="w-24 h-24 mx-auto" src="../public/images/Transaction.png">
+            <div class="mt-2">
+              bidders have the option to place bids on auction listings with different bidding types, including lowest bid and offer-type.
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center mt-4">
+        <div class="text-center mx-4 w-1/3">
+            <img class="w-24 h-24 mx-auto" src="../public/images/payment.png">
+            <div class="mt-2">
+              The transaction is facilitated by payment gateways or processors, 
+              which securely transmit payment information, such as credit or debit card details, bank account information, or digital wallet credentials.
+            </div>
+        </div>
+        <div class="text-center mx-4 w-1/3">
+            <img class="w-24 h-24 mx-auto" src="../public/images/admin.png">
+            <div class="mt-2">
+              The platform provides administrators with dependable user management tools, allowing them to track and monitor user account activities, 
+              including registrations, updates, logs and suspensions.
+
+            </div>
+        </div>
+    </div>
+</div>
+
+   
     
     
     <!-- Footer -->
