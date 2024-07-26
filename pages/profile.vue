@@ -1,6 +1,6 @@
 <template>
     <NuxtLayout name="navbar">
-      <div class="min-h-screen bg-custom-white w-full">
+      <div class="min-h-screen bg-custom-white w-full mt-16">
         <div class="bg-white w-3/5 mx-auto px-12 py-12 rounded-lg flex items-start">
           <div class="mr-6">
             <img class="w-48 rounded-full" src="../public/images/jobert.jpg" alt="Profile Picture">
