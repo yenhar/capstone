@@ -2,7 +2,7 @@
     <div class="bg-custom-white first-line:min-h-screen"> <!-- Ensure the background color covers the full viewport height -->
       <nav class="fixed top-0 left-0 right-0 px-4 py-4 flex justify-between items-center bg-white shadow-md z-50"> <!-- Add shadow to navbar for better visibility -->
         <a class="text-base font-bold leading-none" href="#">
-          LOGO
+          <img src="/public/images/auctionwave-logo-final.png" class="h-10 object-contain" alt="Logo" />
         </a>
         <div class="lg:hidden">
           <button class="navbar-burger flex items-center text-blue-600 p-3">

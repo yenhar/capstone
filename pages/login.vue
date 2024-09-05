@@ -3,10 +3,20 @@
     <!-- Main content -->
     <div class="flex-grow">
       <!-- Your existing content here -->
-      <nav class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+      <!-- <nav class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+        <div> <img src="/public/images/auctionwave-logo-final.png" class="h-10" alt="Logo" /></div>
         <div class="flex justify-end items-center px-44  h-16">
           <div class="px-5 font-medium text-white bg-custom-bluegreen rounded-md cursor-pointer h-3/6 flex items-center justify-center" @click="toggleForm">Sign up</div>
           <div class="px-5 font-medium text-black cursor-pointer hover:bg-gray-100 rounded-md transition duration-300 flex items-center">About</div>
+        </div>
+      </nav> -->
+
+      <nav class="fixed top-0 left-0 w-full bg-white shadow-md z-50 h-16">
+        <div class="flex justify-between items-center px-10 h-full">
+          <img src="/public/images/auctionwave-logo-final.png" class="h-10 object-contain" alt="Logo" />
+          <div class="flex items-center space-x-4">
+            <div class="px-5 py-2 font-medium text-white bg-custom-bluegreen rounded-md cursor-pointer flex items-center justify-center" @click="toggleForm">Sign in</div>
+          </div>
         </div>
       </nav>
       
@@ -44,7 +54,7 @@
           </div>
           
           <div class="flex justify-center my-8">
-            <button type="button" class="border w-5/6 bg-custom-yellow rounded-lg text-white h-14 hover:shadow-inner">Create new account</button>  
+            <button type="button" class="border w-5/6 bg-green-500 rounded-lg text-white h-14 hover:shadow-inner">Create new account</button>  
           </div>
           
           <div class="flex justify-center mt-4 mb-8">
@@ -84,35 +94,43 @@
               <!-- <button @click="nextImage" class="bg-white bg-opacity-50 p-2 rounded-full"> -->
                   <!-- <img src="../public/images/Forward.png" alt="Next" class="w-6 h-6"> -->
               <!-- </button> -->
-          <!-- </div> -->
+          <!-- </div> --> 
       <!-- </div> -->
     <!-- </div> -->
 
-<div class="flex justify-center items-center py-10 w-full relative">
-    <!-- Text Container -->
-    <div class="absolute left-10 top-1/4 z-20 text-white max-w-md mx-44">
-        <h1 class="text-6xl font-medium mb-4 text-custom-bluegreen">Online Auctions Made Easy</h1>
-        <div class="w-full max-w-4xl">
-            <p class="text-xl text-justify text-custom-bluegreen">Experience a seamless and convenient way to participate in online auctions, from anywhere and at any time.</p>
-        </div>
+<div class="flex justify-between items-center w-full  bg-custom-bluegreen">
+    <!-- Text Container (50% width on the left) -->
+    <div class="w-1/2 text-white max-w-md text-left ml-44 animate-slide-in-left">
+        <h1 class="text-6xl font-medium mb-4 text-white">Online Auctions Made Easy</h1>
+        <p class="text-xl text-white mb-6">Experience a seamless and convenient way to participate in online auctions, from anywhere and at any time.</p>
         
-        <div class="my-4">
-            <button class="px-6 py-3 bg-custom-bluegreen text-white font-semibold rounded-md hover:bg-opacity-90 transition duration-300">
-              Get Started
-            </button>
-        </div>
+        <button class="px-6 py-3 bg-green-500 text-white font-semibold rounded-md hover:bg-opacity-90 transition duration-300">
+          Get Started
+        </button>
     </div>
-    
-    <!-- Placeholder for Slideshow with Images -->
-    <div class="relative w-full  max-w-full h-screen-90 overflow-hidden">
-        <div class="absolute top-0 right-0 flex flex-col items-end space-y-4 p-4">
-            <div class="relative w-1/2 h-1/2">
-                <img src="/images/posternew.png" alt="Image 1" class="w-full h-full object-cover">
+
+    <!-- Image Container (50% width on the right) -->
+    <div class="w-1/2 flex justify-center items-center">
+        <img src="/public/images/22062.jpg" alt="Image" class="w-full h-fit">
+    </div>
+</div>
+
+
+<!------------------------------------------------------------->
+<div class="mx-auto justify-center items-center w-3/5 my-24">
+    <div class="flex justify-center">
+        <div class="text-center mx-4 w-3/5">
+            <div class="mt-2 rounded-md">
+              <img src="public/images/posternew.png" alt="Image 1" class="w-full h-full object-cover">
             </div>
-          
+        </div>
+        <div class="mx-4 w-3/5 mt-4">  
+            <h1 class="text-3xl font-medium">Artifacts</h1>
+            ahdahsjdaksdjhasdhakjd
         </div>
     </div>
 </div>
+
 
 
 
