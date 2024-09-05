@@ -1,7 +1,7 @@
 <template>
     <div class="bg-custom-white first-line:min-h-screen"> <!-- Ensure the background color covers the full viewport height -->
       <nav class="fixed top-0 left-0 right-0 px-4 py-4 flex justify-between items-center bg-white shadow-md z-50"> <!-- Add shadow to navbar for better visibility -->
-        <a class="text-3xl font-bold leading-none" href="#">
+        <a class="text-base font-bold leading-none" href="#">
           LOGO
         </a>
         <div class="lg:hidden">

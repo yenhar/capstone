@@ -30,7 +30,11 @@ export default {
         '144': '36rem', // Another custom height value
         '162': '40rem',
         'screen-90': '90vh', // Example of height using viewport units
-      }
+      },
+      fontFamily: {
+        sans: ['Exo', 'Helvetica', 'Arial', 'sans-serif'], // Add "Exo" to the sans font stack
+      },
+
 
     },
   },
