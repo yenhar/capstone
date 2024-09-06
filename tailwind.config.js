@@ -41,7 +41,7 @@ export default {
         },
       },
       animation: {
-        'slide-in-left': 'slideInLeft 1s ease-out forwards',
+        'slide-in-left': 'slideInLeft 0.5s ease-out forwards',
       },
 
 

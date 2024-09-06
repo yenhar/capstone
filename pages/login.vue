@@ -115,56 +115,38 @@
     </div>
 </div>
 
-
 <!------------------------------------------------------------->
 <div class="mx-auto justify-center items-center w-3/5 my-24">
     <div class="flex justify-center">
-        <div class="text-center mx-4 w-3/5">
-            <div class="mt-2 rounded-md">
-              <img src="public/images/posternew.png" alt="Image 1" class="w-full h-full object-cover">
-            </div>
-        </div>
-        <div class="mx-4 w-3/5 mt-4">  
-            <h1 class="text-3xl font-medium">Artifacts</h1>
-            ahdahsjdaksdjhasdhakjd
-        </div>
-    </div>
-</div>
-
-
-
-
-    <div class="mx-auto justify-center items-center w-3/5 my-24">
-    <div class="flex justify-center">
-        <div class="text-center mx-4 w-3/5">
-            <img class="w-24 h-24 mx-auto" src="../public/images/usermanage.png">
+        <div class=" mx-4 w-3/5">
+            <img class="w-24 h-24 " src="../public/images/usermanage.png">
             <div class="mt-2">
                 Users are provided with the option to choose whether they want to register as an Auctioneer or a Bidder.
             </div>
         </div>
-        <div class="text-center mx-4 w-3/5">
-            <img class="w-24 h-24 mx-auto" src="../public/images/CMS.png">
+        <div class=" mx-4 w-3/5">
+            <img class="w-24 h-24 " src="../public/images/CMS.png">
             <div class="mt-2">
               a user-friendly interface specifically designed for auctioneers to create new auction listings.
             </div>
         </div>
-        <div class="text-center mx-4 w-3/5">
-            <img class="w-24 h-24 mx-auto" src="../public/images/Transaction.png">
+        <div class=" mx-4 w-3/5">
+            <img class="w-24 h-24 " src="../public/images/Transaction.png">
             <div class="mt-2">
               bidders have the option to place bids on auction listings with different bidding types, including lowest bid and offer-type.
             </div>
         </div>
     </div>
     <div class="flex justify-center mt-4">
-        <div class="text-center mx-4 w-1/3">
-            <img class="w-24 h-24 mx-auto" src="../public/images/payment.png">
+        <div class=" mx-4 w-1/3">
+            <img class="w-24 h-24 " src="../public/images/payment.png">
             <div class="mt-2">
               The transaction is facilitated by payment gateways or processors, 
               which securely transmit payment information, such as credit or debit card details, bank account information, or digital wallet credentials.
             </div>
         </div>
-        <div class="text-center mx-4 w-1/3">
-            <img class="w-24 h-24 mx-auto" src="../public/images/admin.png">
+        <div class=" mx-4 w-1/3">
+            <img class="w-24 h-24 " src="../public/images/admin.png">
             <div class="mt-2">
               The platform provides administrators with dependable user management tools, allowing them to track and monitor user account activities, 
               including registrations, updates, logs and suspensions.
@@ -174,6 +156,96 @@
     </div>
 </div>
 
+
+<!------------------------------------------------------------->
+
+<div class="text-4xl font-medium mx-auto mt-32">Products Offered</div>
+<div class="mx-auto justify-center items-center w-3/5 mt-24 mb-10">
+    <div class="flex justify-center">
+        <div class="text-center  w-3/5">
+            <div class="mt-2 rounded-md overflow-hidden">
+              <img src="public/images/art.jpg" alt="Image 1" class="w-full h-full object-cover">
+            </div>
+        </div>
+        <div class="w-3/5 mt-4">  
+            <div class="bg-custom-bluegreen my-24 py-16 rounded-r-lg">
+              <h1 class="text-3xl font-medium text-white mx-14">Art</h1>
+                <p class="mx-14 text-white">Auction items include paintings, sculptures, and other creative works.</p> 
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+<div class="mx-auto justify-center items-center w-3/5 mb-10 my-24">
+    <div class="flex justify-center">
+      <div class=" w-3/5 mt-4">  
+        <div class="bg-custom-bluegreen my-24 py-16 rounded-l-lg">
+              <h1 class="text-3xl font-medium text-white mx-14">furniture</h1>
+                <p class="mx-14 text-white">Browse a diverse selection of furniture, from modern to antique pieces.</p> 
+            </div>  
+        </div>
+        <div class="text-center  w-3/5">
+            <div class="mt-2 rounded-md overflow-hidden">
+              <img src="public/images/furniture.jpg" alt="Image 1" class="w-full h-full object-cover">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mx-auto justify-center items-center w-3/5 mb-10 my-24">
+    <div class="flex justify-center">
+        <div class="text-center  w-3/5">
+            <div class="mt-2 rounded-md overflow-hidden">
+              <img src="public/images/electronics.jpg" alt="Image 1" class="w-full h-full object-cover">
+            </div>
+        </div>
+        <div class=" w-3/5 mt-4">  
+            <div class="bg-custom-bluegreen my-24 py-16 rounded-r-lg">
+              <h1 class="text-3xl font-medium text-white mx-14 ">Electronics</h1>
+                <p class="mx-14 text-white">Auction items cover gadgets like smartphones, laptops, and audio equipment.</p> 
+            </div>  
+        </div>
+    </div>
+</div>
+
+<div class="mx-auto justify-center items-center w-3/5 mb-10 my-24">
+    <div class="flex justify-center">
+      <div class=" w-3/5 mt-4">  
+            <div class="bg-custom-bluegreen my-24 py-16 rounded-l-lg">
+              <h1 class="text-3xl font-medium text-white mx-14">Collectibles</h1>
+                <p class="mx-14 text-white">Explore rare and valuable items such as coins, stamps, and memorabilia. Each piece is selected for its uniqueness.</p> 
+            </div>  
+      </div>
+        <div class="text-center  w-3/5">
+            <div class="mt-2 rounded-md overflow-hidden">
+              <img src="public/images/collectibles.jpg" alt="Image 1" class="w-full h-full object-cover">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mx-auto justify-center items-center w-3/5 my-24 ">
+    <div class="flex justify-center">
+        <div class="text-center w-3/5">
+            <div class="mt-2 rounded-md overflow-hidden">
+              <img src="public/images/realestate.jpg" alt="Image 1" class="w-full h-full object-cover">
+            </div>
+        </div>
+        <div class=" w-3/5 mt-4">  
+            <div class="bg-custom-bluegreen my-24 py-16 rounded-r-lg">
+              <h1 class="text-3xl font-medium text-white mx-14">Real estate</h1>
+                <p class="mx-14 text-white">Bid on a range of properties, including homes, commercial buildings, and land. Each listing provides detailed information</p> 
+            </div>  
+        </div>
+    </div>
+</div>
+
+
+
+
+
+ 
    
     
     
