@@ -34,15 +34,7 @@ export default {
       fontFamily: {
         sans: ['Exo', 'Helvetica', 'Arial', 'sans-serif'], // Add "Exo" to the sans font stack
       },
-      keyframes: {
-        slideInLeft: {
-          '0%': { transform: 'translateX(-100%)', opacity: '0' },
-          '100%': { transform: 'translateX(0)', opacity: '1' },
-        },
-      },
-      animation: {
-        'slide-in-left': 'slideInLeft 0.5s ease-out forwards',
-      },
+      
       dropShadow: {
         '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
         '4xl': [
