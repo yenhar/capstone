@@ -54,7 +54,7 @@
           </div>
           
           <div class="flex justify-center my-8">
-            <button type="button" class="border w-5/6 bg-green-500 rounded-lg text-white h-14 hover:shadow-inner">Create new account</button>  
+            <button type="button" class="border w-5/6 bg-gray-500 rounded-lg text-white h-14 hover:shadow-inner">Create new account</button>  
           </div>
           
           <div class="flex justify-center mt-4 mb-8">
@@ -121,7 +121,7 @@
 <section class="bg-white dark:bg-gray-900 mt-16">
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-custom-bluegreen dark:text-white">Online Auctions Made Easy</h1>
+            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-custom-bluegreen dark:text-white italic">Online Auctions Made Easy</h1>
             <p class="max-w-2xl mb-6 font-light text-custom-bluegreen lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Experience a seamless and convenient way to participate in online auctions, from anywhere and at any time.</p>
             <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg hover:bg-green-500 bg-custom-bluegreen hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
                 Get started
@@ -236,7 +236,7 @@
           </div>  
           <div class="w-3/5 mt-4">  
               <div class="bg-custom-bluegreen my-24 py-16 rounded-r-lg ">
-                <h1 class="text-3xl font-bold text-white mx-14 my-2">Art</h1>
+                <h1 class="text-3xl font-medium text-white mx-14 my-2">Art</h1>
                   <p class="mx-14 text-white text-2xl font-light">Auction items include paintings, sculptures, and other creative works.</p> 
               </div>
             
@@ -356,124 +356,136 @@
 
 </div> -->
 <div class="mx-auto px-5 w-full mb-32">
-    <div class="flex flex-col items-center">
-        <h2 class="mt-5 text-center text-custom-bluegreen text-4xl font-bold tracking-tight md:text-5xl">FAQ</h2>
-        <p class="mt-3 text-lg text-neutral-500 md:text-xl">Frequently asked questions</p>
-    </div>
-    <div class="mx-auto mt-8 grid max-w-xl divide-y divide-neutral-200">
-        <div class="py-5">
-            <details class="group">
-                <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                    <span class="text-xl"> How does the billing work?</span>
-                    <span class="transition group-open:rotate-180">
-                        <svg fill="none" height="24" shape-rendering="geometricPrecision"
-                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="1.5" viewBox="0 0 24 24" width="24">
-                            <path d="M6 9l6 6 6-6"></path>
-                        </svg>
-                    </span>
-                </summary>
-                <p class="group-open:animate-fadeIn mt-3 text-neutral-600">Springerdata offers a variety of
-                    billing options, including monthly and annual subscription plans, as well as pay-as-you-go
-                    pricing for certain services. Payment is typically made through a credit card or other
-                    secure online payment method.
-                </p>
-            </details>
+    <div class="flex items-start max-w-6xl mx-auto">
+        <!-- Image Section -->
+        <div class="flex-shrink-0 w-1/2 pr-8">
+            <img src="/public/images/faq.jpg" alt="Description of image" class="w-full h-auto">
         </div>
-        <div class="py-5">
-            <details class="group">
-                <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                    <span class="text-xl"> Can I get a refund for my subscription?</span>
-                    <span class="transition group-open:rotate-180">
-                        <svg fill="none" height="24" shape-rendering="geometricPrecision"
-                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="1.5" viewBox="0 0 24 24" width="24">
-                            <path d="M6 9l6 6 6-6"></path>
-                        </svg>
-                    </span>
-                </summary>
-                <p class="group-open:animate-fadeIn mt-3 text-neutral-600">We offer a 30-day money-back
-                    guarantee for most of its subscription plans. If you are not satisfied with your
-                    subscription within the first 30 days, you can request a full refund. Refunds for
-                    subscriptions that have been active for longer than 30 days may be considered on a
-                    case-by-case basis.
-                </p>
-            </details>
-        </div>
-        <div class="py-5">
-            <details class="group">
-                <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                    <span class="text-xl"> How do I cancel my subscription?</span>
-                    <span class="transition group-open:rotate-180">
-                        <svg fill="none" height="24" shape-rendering="geometricPrecision"
-                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="1.5" viewBox="0 0 24 24" width="24">
-                            <path d="M6 9l6 6 6-6"></path>
-                        </svg>
-                    </span>
-                </summary>
-                <p class="group-open:animate-fadeIn mt-3 text-neutral-600">To cancel your subscription, you can
-                    log in to your account and navigate to the subscription management page. From there, you
-                    should be able to cancel your subscription and stop future billing.
-                </p>
-            </details>
-        </div>
-        <div class="py-5">
-            <details class="group">
-                <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                    <span class="text-xl"> Is there a free trial?</span>
-                    <span class="transition group-open:rotate-180">
-                        <svg fill="none" height="24" shape-rendering="geometricPrecision"
-                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="1.5" viewBox="0 0 24 24" width="24">
-                            <path d="M6 9l6 6 6-6"></path>
-                        </svg>
-                    </span>
-                </summary>
-                <p class="group-open:animate-fadeIn mt-3 text-neutral-600">We offer a free trial of our software
-                    for a limited time. During the trial period, you will have access to a limited set of
-                    features and functionality, but you will not be charged.
-                </p>
-            </details>
-        </div>
-        <div class="py-5">
-            <details class="group">
-                <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                    <span class="text-xl"> How do I contact support?</span>
-                    <span class="transition group-open:rotate-180">
-                        <svg fill="none" height="24" shape-rendering="geometricPrecision"
-                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="1.5" viewBox="0 0 24 24" width="24">
-                            <path d="M6 9l6 6 6-6"></path>
-                        </svg>
-                    </span>
-                </summary>
-                <p class="group-open:animate-fadeIn mt-3 text-neutral-600">If you need help with our platform or
-                    have any other questions, you can contact the company's support team by submitting a support
-                    request through the website or by emailing support@ourwebsite.com.
-                </p>
-            </details>
-        </div>
-        <div class="py-5">
-            <details class="group">
-                <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
-                    <span class="text-xl"> Do you offer any discounts or promotions?</span>
-                    <span class="transition group-open:rotate-180">
-                        <svg fill="none" height="24" shape-rendering="geometricPrecision"
-                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-width="1.5" viewBox="0 0 24 24" width="24">
-                            <path d="M6 9l6 6 6-6"></path>
-                        </svg>
-                    </span>
-                </summary>
-                <p class="group-open:animate-fadeIn mt-3 text-neutral-600">We may offer discounts or promotions
-                    from time to time. To stay up-to-date on the latest deals and special offers, you can sign
-                    up for the company's newsletter or follow it on social media.
-                </p>
-            </details>
+
+        <!-- FAQ Section -->
+        <div class="w-2/3">
+            <div class="flex flex-col items-start">
+                <h2 class="mt-5 text-custom-bluegreen text-4xl font-bold tracking-tight md:text-5xl">FAQ</h2>
+                <p class="mt-3 text-lg text-neutral-500 md:text-xl">Frequently asked questions</p>
+            </div>
+            <div class="mt-8 grid max-w-xl divide-y divide-neutral-200">
+                <div class="py-5">
+                    <details class="group">
+                        <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                            <span class="text-xl"> How does the billing work?</span>
+                            <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                        </summary>
+                        <p class="group-open:animate-fadeIn mt-3 text-neutral-600">Springerdata offers a variety of
+                            billing options, including monthly and annual subscription plans, as well as pay-as-you-go
+                            pricing for certain services. Payment is typically made through a credit card or other
+                            secure online payment method.
+                        </p>
+                    </details>
+                </div>
+                <div class="py-5">
+                    <details class="group">
+                        <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                            <span class="text-xl"> Can I get a refund for my subscription?</span>
+                            <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                        </summary>
+                        <p class="group-open:animate-fadeIn mt-3 text-neutral-600">We offer a 30-day money-back
+                            guarantee for most of its subscription plans. If you are not satisfied with your
+                            subscription within the first 30 days, you can request a full refund. Refunds for
+                            subscriptions that have been active for longer than 30 days may be considered on a
+                            case-by-case basis.
+                        </p>
+                    </details>
+                </div>
+                <div class="py-5">
+                    <details class="group">
+                        <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                            <span class="text-xl"> How do I cancel my subscription?</span>
+                            <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                        </summary>
+                        <p class="group-open:animate-fadeIn mt-3 text-neutral-600">To cancel your subscription, you can
+                            log in to your account and navigate to the subscription management page. From there, you
+                            should be able to cancel your subscription and stop future billing.
+                        </p>
+                    </details>
+                </div>
+                <div class="py-5">
+                    <details class="group">
+                        <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                            <span class="text-xl"> Is there a free trial?</span>
+                            <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                        </summary>
+                        <p class="group-open:animate-fadeIn mt-3 text-neutral-600">We offer a free trial of our software
+                            for a limited time. During the trial period, you will have access to a limited set of
+                            features and functionality, but you will not be charged.
+                        </p>
+                    </details>
+                </div>
+                <div class="py-5">
+                    <details class="group">
+                        <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                            <span class="text-xl"> How do I contact support?</span>
+                            <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                        </summary>
+                        <p class="group-open:animate-fadeIn mt-3 text-neutral-600">If you need help with our platform or
+                            have any other questions, you can contact the company's support team by submitting a support
+                            request through the website or by emailing support@ourwebsite.com.
+                        </p>
+                    </details>
+                </div>
+                <div class="py-5">
+                    <details class="group">
+                        <summary class="flex cursor-pointer list-none items-center justify-between font-medium">
+                            <span class="text-xl"> Do you offer any discounts or promotions?</span>
+                            <span class="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                        </summary>
+                        <p class="group-open:animate-fadeIn mt-3 text-neutral-600">We may offer discounts or promotions
+                            from time to time. To stay up-to-date on the latest deals and special offers, you can sign
+                            up for the company's newsletter or follow it on social media.
+                        </p>
+                    </details>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
+
 
 
 
