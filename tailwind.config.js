@@ -20,6 +20,7 @@ export default {
         'custom-gray':'#565656',
         'custom-green':'#bde5ac',
         'custom-green2':'#bde5ac',
+        'custom-blue2':'#e6eeef',
       },
       fontSize: {
        

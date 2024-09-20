@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col min-h-screen ">
+  <div class="flex flex-col min-h-screen bg-custom-blue2">
     <!-- Main content -->
     <div class="flex-grow">
       <!-- Your existing content here -->
@@ -54,7 +54,7 @@
           </div>
           
           <div class="flex justify-center my-8">
-            <button type="button" class="border w-5/6 bg-gray-500 rounded-lg text-white h-14 hover:shadow-inner">Create new account</button>  
+            <button type="button" class="border w-5/6 bg-custom-blue2 rounded-lg text-gray-900 h-14 hover:shadow-inner">Create new account</button>  
           </div>
           
           <div class="flex justify-center mt-4 mb-8">
@@ -122,7 +122,7 @@
     <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div class="mr-auto place-self-center lg:col-span-7">
             <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-custom-bluegreen dark:text-white italic">Online Auctions Made Easy</h1>
-            <p class="max-w-2xl mb-6 font-light text-custom-bluegreen lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Experience a seamless and convenient way to participate in online auctions, from anywhere and at any time.</p>
+            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Experience a seamless and convenient way to participate in online auctions, from anywhere and at any time.</p>
             <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg hover:bg-green-500 bg-custom-bluegreen hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
                 Get started
                 <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
@@ -153,8 +153,8 @@
                   </div>
               </div>
               <div class="flex justify-center items-center  gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:flex-row lg:justify-between lg:gap-x-8">
-                  <div class="group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-custom-bluegreen">
-                      <div class="bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14 ">
+                  <div class="group relative w-full bg-white rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-custom-bluegreen">
+                      <div class="bg-gray-100 rounded-full flex justify-center items-center mb-5 w-14 h-14 ">
                           <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M24.7222 11.6667V7.22225C24.7222 5.99495 23.7273 5 22.5 5H4.72222C3.49492 5 2.5 5.99492 2.5 7.22222V22.7778C2.5 24.0051 3.49492 25 4.72222 25H22.5C23.7273 25 24.7222 24.005 24.7222 22.7777V17.7778M20.8333 17.7778H25.2778C26.5051 17.7778 27.5 16.7829 27.5 15.5556V13.8889C27.5 12.6616 26.5051 11.6667 25.2778 11.6667H20.8333C19.606 11.6667 18.6111 12.6616 18.6111 13.8889V15.5556C18.6111 16.7829 19.606 17.7778 20.8333 17.7778Z" stroke="#005262" stroke-width="2"></path>
                           </svg>
@@ -166,8 +166,8 @@
                         such as credit or debit card details. 
                       </p>
                   </div>
-                  <div class="group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-custom-bluegreen">
-                      <div class="bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14 ">
+                  <div class="group relative w-full bg-white rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-custom-bluegreen">
+                      <div class="bg-gray-100 rounded-full flex justify-center items-center mb-5 w-14 h-14 ">
                           <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M14.375 15.8571C16.1009 15.8571 17.5 14.458 17.5 12.7321C17.5 11.0062 16.1009 9.6071 14.375 9.6071C12.6491 9.6071 11.25 11.0062 11.25 12.7321C11.25 14.458 12.6491 15.8571 14.375 15.8571ZM14.375 15.8571V20.8571M3.75 13.2264V15.2343C3.75 17.6868 3.75 18.9131 4.27747 19.9685C4.80493 21.0239 5.78567 21.76 7.74715 23.2322L8.57248 23.8516C11.4626 26.0208 12.9077 27.1054 14.5753 27.1054C16.243 27.1054 17.688 26.0208 20.5782 23.8516L21.4035 23.2322C23.365 21.76 24.3457 21.0239 24.8732 19.9685C25.4006 18.9131 25.4006 17.6868 25.4006 15.2343V13.2264C25.4006 9.95932 25.4006 8.32576 24.546 7.05852C23.6913 5.79128 22.1768 5.17918 19.1477 3.95499L18.3223 3.62144C16.4724 2.87381 15.5475 2.5 14.5753 2.5C13.6032 2.5 12.6782 2.87381 10.8283 3.62144L10.003 3.95499C6.97389 5.17919 5.45934 5.79128 4.60467 7.05852C3.75 8.32576 3.75 9.95932 3.75 13.2264Z" stroke="#005262" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                               </svg>
@@ -178,8 +178,8 @@
                           We have the most up-to-date security to support the security of all our customers in carrying out all transactions.  
                       </p>
                   </div>
-                  <div class="group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-custom-bluegreen">
-                      <div class="bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14 ">
+                  <div class="group relative w-full bg-white rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-custom-bluegreen">
+                      <div class="bg-gray-100 rounded-full flex justify-center items-center mb-5 w-14 h-14 ">
                           <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M15.0067 10V15.6652C15.0067 16.0358 15.1712 16.3873 15.4556 16.6248L18.75 19.375M15 27.5C8.09644 27.5 2.5 21.9036 2.5 15C2.5 8.09644 8.09644 2.5 15 2.5C21.9036 2.5 27.5 8.09644 27.5 15C27.5 21.9036 21.9036 27.5 15 27.5Z" stroke="#005262" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                           </svg>
@@ -190,8 +190,8 @@
                           Provide Customer Service For Those Of You Who Have Problems 24 Hours A Week  
                       </p>
                   </div>
-                  <div class="group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-custom-bluegreen">
-                      <div class="bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14 ">
+                  <div class="group relative w-full bg-white rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-custom-bluegreen">
+                      <div class="bg-gray-100 rounded-full flex justify-center items-center mb-5 w-14 h-14 ">
                           <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M10 14.7875L13.0959 17.8834C13.3399 18.1274 13.7353 18.1275 13.9794 17.8838L20.625 11.25M15 27.5C8.09644 27.5 2.5 21.9036 2.5 15C2.5 8.09644 8.09644 2.5 15 2.5C21.9036 2.5 27.5 8.09644 27.5 15C27.5 21.9036 21.9036 27.5 15 27.5Z" stroke="#005262" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                           </svg>
@@ -204,16 +204,16 @@
                   </div>
               </div>
               <div class="flex justify-center items-center gap-x-5 gap-y-8 lg:gap-y-0 flex-wrap md:flex-wrap lg:flex-nowrap lg:justify-center lg:gap-x-8 mt-10">
-            <div class="group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-custom-bluegreen">
-              <div class="bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14">
+            <div class="group relative w-full bg-white rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-custom-bluegreen">
+              <div class="bg-custom-blue2 rounded-full flex justify-center items-center mb-5 w-14 h-14">
                   <img src="../public/images/edit.png">
               </div>
                 <h4 class="text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white">New Feature 1</h4>
                 <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">Description for the new feature 1.</p>
             </div>
 
-            <div class="group relative w-full bg-gray-100 rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-custom-bluegreen">
-                <div class="bg-white rounded-full flex justify-center items-center mb-5 w-14 h-14 ">
+            <div class="group relative w-full bg-white rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-custom-bluegreen">
+                <div class="bg-custom-blue2 rounded-full flex justify-center items-center mb-5 w-14 h-14 ">
                     
                 </div>
                 <h4 class="text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white">New Feature 2</h4>
@@ -222,6 +222,96 @@
         </div>
         </div>
       </section>
+
+<!------------------------------------------------------------->
+
+<div class="w-8/12 mx-auto">
+    <div class="container mx-auto  my-32 flex flex-col items-center gap-16">
+      <div class="flex flex-col gap-16">
+        <div class="flex flex-col gap-2 text-center">
+          <h2 class="mb-2 text-3xl font-bold text-custom-bluegreen lg:text-4xl">
+            How AuctionWave works?
+          </h2>
+          <p class="text-base font-medium leading-7 text-dark-grey-600">
+            Tellus rutrum tellus pellentesque eu tincidunt tortor condimentum.
+          </p>
+        </div>
+      </div>
+      <div class="flex w-full flex-col items-center justify-between gap-y-10 lg:flex-row lg:gap-x-8 lg:gap-y-0 xl:gap-x-10">
+        <div class="flex items-start gap-4">
+            <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border-2 border-solid border-custom-bluegreen bg-transparent text-purple-blue-500">
+                <span class="text-base font-bold leading-7">1</span>
+            </div>
+          <div class="flex flex-col">
+            <h3 class="mb-2 text-base font-bold leading-tight text-dark-grey-900">
+              Create your Account
+            </h3>
+            <p class="text-base font-medium leading-7 text-dark-grey-600">
+              Condimentum vit pellemsque habitant morbi at molestie.
+            </p>
+          </div>
+        </div>
+        <div class="rotate-90 lg:rotate-0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="43" height="42" viewBox="0 0 43 42" fill="none">
+            <g clip-path="url(#clip0_3346_6663)">
+              <path
+                d="M16.9242 11.7425C16.2417 12.425 16.2417 13.5275 16.9242 14.21L23.7142 21L16.9242 27.79C16.2417 28.4725 16.2417 29.575 16.9242 30.2575C17.6067 30.94 18.7092 30.94 19.3917 30.2575L27.4242 22.225C28.1067 21.5425 28.1067 20.44 27.4242 19.7575L19.3917 11.725C18.7267 11.06 17.6067 11.06 16.9242 11.7425Z"
+                fill="#68769F"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_3346_6663">
+                <rect width="42" height="42" fill="white" transform="translate(0.666748)" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <div class="flex items-start gap-4">
+          <div
+            class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border-2 border-solid border-custom-bluegreen bg-transparent text-purple-blue-500">
+            <span class="text-base font-bold leading-7">2</span>
+          </div>
+          <div class="flex flex-col">
+            <h3 class="mb-2 text-base font-bold leading-tight text-dark-grey-900">
+              Setup your Account
+            </h3>
+            <p class="text-base font-medium leading-7 text-dark-grey-600">
+              Condimentum vit pellemsque habitant morbi at molestie.
+            </p>
+          </div>
+        </div>
+        <div class="rotate-90 lg:rotate-0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="43" height="42" viewBox="0 0 43 42" fill="none">
+            <g clip-path="url(#clip0_3346_6663)">
+              <path
+                d="M16.9242 11.7425C16.2417 12.425 16.2417 13.5275 16.9242 14.21L23.7142 21L16.9242 27.79C16.2417 28.4725 16.2417 29.575 16.9242 30.2575C17.6067 30.94 18.7092 30.94 19.3917 30.2575L27.4242 22.225C28.1067 21.5425 28.1067 20.44 27.4242 19.7575L19.3917 11.725C18.7267 11.06 17.6067 11.06 16.9242 11.7425Z"
+                fill="#68769F"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_3346_6663">
+                <rect width="42" height="42" fill="white" transform="translate(0.666748)" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <div class="flex items-start gap-4">
+          <div
+            class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border-2 border-solid border-custom-bluegreen bg-transparent text-purple-blue-500">
+            <span class="text-base font-bold leading-7">3</span>
+          </div>
+          <div class="flex flex-col">
+            <h3 class="mb-2 text-base font-bold leading-tight text-dark-grey-900">
+              Start creating with Horizon
+            </h3>
+            <p class="text-base font-medium leading-7 text-dark-grey-600">
+              Condimentum vit pellemsque habitant morbi at molestie.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <!------------------------------------------------------------->
 
