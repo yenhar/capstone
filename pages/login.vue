@@ -35,11 +35,11 @@
         <form class="space-y-6 px-6 lg:px-8 pb-4 sm:pb-6 xl:pb-8" action="#">
           <h3 class="text-xl font-medium text-gray-900 dark:text-white">Sign in to <p class="text-custom-bluegreen2 font-bold">AuctionWave</p></h3>
           <div>
-            <label for="username" class="text-sm font-medium text-gray-900 block mb-2 dark:text-gray-300">Your Username</label>
+            <label for="username" class="text-sm font-medium text-gray-900 block mb-2 dark:text-gray-300">Username</label>
             <input type="text" name="username" id="username" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-custom-bluegreen focus:border-custom-bluegreen block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" placeholder="Username" required>
           </div>
           <div>
-            <label for="password" class="text-sm font-medium text-gray-900 block mb-2 dark:text-gray-300">Your Password</label>
+            <label for="password" class="text-sm font-medium text-gray-900 block mb-2 dark:text-gray-300">Password</label>
             <input type="password" name="password" id="password" placeholder="••••••••" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-custom-bluegreen focus:border-custom-bluegreen block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required>
           </div>
           <div class="flex justify-between">
@@ -146,7 +146,7 @@
                       <h2 class="text-4xl font-bold text-custom-bluegreen2 leading-[3.25rem] lg:mb-6 mx-auto max-w-max lg:max-w-md lg:mx-0">Enjoy the finest features with our products</h2>
                   </div>
                   <div class="relative w-full text-center  lg:text-left lg:w-2/4">
-                      <p class="text-lg font-normal text-custom-bluegreen2 mb-5">We simplify your online auction experience, handling all transactions smoothly so you can focus on winning your bids with ease.</p> 
+                      <p class="text-lg font-normal text-gray-500 mb-5">We simplify your online auction experience, handling all transactions smoothly so you can focus on winning your bids with ease.</p> 
                       <a href="#" class="flex flex-row items-center justify-center gap-2 text-base font-semibold text-custom-bluegreen lg:justify-start hover:text-green-500 ">Try now <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M7.5 15L11.0858 11.4142C11.7525 10.7475 12.0858 10.4142 12.0858 10C12.0858 9.58579 11.7525 9.25245 11.0858 8.58579L7.5 5" stroke="#005262" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                           </svg>
@@ -163,8 +163,7 @@
                       </div>
                       <h4 class="text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white">Easy Payment</h4>
                       <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">
-                        The transaction is facilitated by payment gateways or processors, 
-                        such as credit or debit card details. 
+                          Transactions are facilitated through GCash and PayPal payment gateways. 
                       </p>
                   </div>
                   <div class="group relative w-full bg-white rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-custom-bluegreen">
@@ -176,7 +175,7 @@
                       </div>
                       <h4 class="text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white">Safe Transaction</h4>
                       <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">
-                          We have the most up-to-date security to support the security of all our customers in carrying out all transactions.  
+                            We ensure top-level security for all user transactions. 
                       </p>
                   </div>
                   
@@ -194,20 +193,17 @@
                   </div>
                   <div class="group relative w-full bg-white rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-custom-bluegreen">
                       <div class="bg-gray-100 rounded-full flex justify-center items-center mb-5 w-14 h-14">
-                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                            <g id="SVGRepo_iconCarrier">
-                                <path d="M4 5L15 5" stroke="#005262" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M4 8H15" stroke="#005262" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M4 11H11" stroke="#005262" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M18.4563 13.5423L13.9268 18.0719C13.6476 18.3511 13.292 18.5414 12.9048 18.6188L10.8153 19.0367L11.2332 16.9472C11.3106 16.5601 11.5009 16.2045 11.7801 15.9253L16.3096 11.3957M18.4563 13.5423L19.585 12.4135C19.9755 12.023 19.9755 11.3898 19.585 10.9993L18.8526 10.2669C18.4621 9.8764 17.8289 9.8764 17.4384 10.2669L16.3096 11.3957M18.4563 13.5423L16.3096 11.3957" stroke="#005262" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                            </g>
+                        <svg width="30" height="30" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M30,24V22H27.8989a4.9678,4.9678,0,0,0-.7319-1.7529l1.49-1.49-1.414-1.414-1.49,1.49A4.9678,4.9678,0,0,0,24,18.1011V16H22v2.1011a4.9678,4.9678,0,0,0-1.7529.7319l-1.49-1.49-1.414,1.414,1.49,1.49A4.9678,4.9678,0,0,0,18.1011,22H16v2h2.1011a4.9678,4.9678,0,0,0,.7319,1.7529l-1.49,1.49,1.414,1.414,1.49-1.49A4.9678,4.9678,0,0,0,22,27.8989V30h2V27.8989a4.9678,4.9678,0,0,0,1.7529-.7319l1.49,1.49,1.414-1.414-1.49-1.49A4.9678,4.9678,0,0,0,27.8989,24Zm-7,2a3,3,0,1,1,3-3A3.0033,3.0033,0,0,1,23,26Z" fill="#005262"></path>
+                          <path d="M28,4H4A2.002,2.002,0,0,0,2,6V26a2.0023,2.0023,0,0,0,2,2H14V26H4V12H28v3h2V6A2.0023,2.0023,0,0,0,28,4Zm0,6H4V6H28Z" fill="#005262"></path>
+                          <circle cx="20" cy="8" r="1" fill="#005262"></circle>
+                          <circle cx="23" cy="8" r="1" fill="#005262"></circle>
+                          <circle cx="26" cy="8" r="1" fill="#005262"></circle>
                         </svg>
                       </div>
                       <h4 class="text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white">Auction Management</h4>
                       <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">
-                          Streamline the auction process, from listing items to tracking bids, ensuring a smooth experience for all participants.
+                        Streamline auctions from item listing to bid tracking for a seamless experience.
                       </p>
                   </div>
               </div>
@@ -216,9 +212,11 @@
 
     <div class="group relative w-full bg-white rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-custom-bluegreen">
         <div class="bg-custom-blue2 rounded-full flex justify-center items-center mb-5 w-14 h-14">
-            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.5 15H22.5M7.5 15L15 7.5M7.5 15L15 22.5" stroke="#005262" stroke-width="2" stroke-linecap="round"/>
-            </svg>
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke="#005262" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M12 6V12" stroke="#005262" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M16.24 16.24L12 12" stroke="#005262" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
         </div>
         <h4 class="text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white">Real-Time Bidding</h4>
         <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">Bid in real time and keep track of auctions as they happen.</p>
@@ -226,10 +224,9 @@
 
     <div class="group relative w-full bg-white rounded-2xl p-4 transition-all duration-500 max-md:max-w-md max-md:mx-auto md:w-2/5 md:h-64 xl:p-7 xl:w-1/4 hover:bg-custom-bluegreen">
         <div class="bg-custom-blue2 rounded-full flex justify-center items-center mb-5 w-14 h-14">
-            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M5 15H25" stroke="#005262" stroke-width="2" stroke-linecap="round"/>
-                <path d="M5 10H25" stroke="#005262" stroke-width="2" stroke-linecap="round"/>
-            </svg>
+          <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 20L12 3L5 20L12 17L19 20Z" stroke="#005262" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
         </div>
         <h4 class="text-xl font-semibold text-gray-900 mb-3 capitalize transition-all duration-500 group-hover:text-white">Easy Navigation</h4>
         <p class="text-sm font-normal text-gray-500 transition-all duration-500 leading-5 group-hover:text-white">Intuitive design for seamless browsing through auctions.</p>
