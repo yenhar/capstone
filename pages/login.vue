@@ -632,7 +632,7 @@
     <div class="flex items-start max-w-6xl mx-auto">
         <!-- Image Section -->
         <div class="flex-shrink-0 w-1/2 pr-8 mt-10">
-            <img src="/public/images/faq.jpg" alt="Description of image" class="w-full h-auto rounded-md">
+            <img src="/public/images/faqnobg.png" alt="Description of image" class="w-full h-auto rounded-md">
         </div>
 
         <!-- FAQ Section -->
