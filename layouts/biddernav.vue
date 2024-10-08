@@ -192,15 +192,7 @@
             </div>
         </nav>
 
-        <!-- Main content section -->
-        <div class="max-w-7xl mx-auto p-4">
-            <h1 class="text-3xl md:text-5xl text-center font-bold my-8">
-                Welcome to Our Website
-            </h1>
-            <p class="text-lg md:text-xl text-center md:text-left">
-                Communications is a continuous process that mainly involves three elements viz. sender, message, and receiver. The elements involved in the communication ...
-            </p>
-        </div>
+        
     </div>
 </template>
   
