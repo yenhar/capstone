@@ -18,7 +18,7 @@
             </div>
         </div>
         <div>
-            <div id="app" class="bg-white text-gray-700 min-h-screen p-6">
+            <div id="app" class="bg-[#E6EEEF] text-gray-700 min-h-screen p-6">
                 <div class="max-w-7xl mx-auto">
                     <!-- Main Layout -->
                     <div class="grid grid-cols-3 gap-6">
@@ -26,8 +26,27 @@
                         <div class="col-span-2">
                             <div class="flex justify-between">
                                 <h2 class="font-bold text-lg mb-4">Auctione Activity</h2>
+                                <div>
+                                    <button class="text-gray-700 flex items-center mr-4 space-x-2">
+                                        <span>Sort by</span>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="2"
+                                            stroke="currentColor"
+                                            class="w-4 h-4"
+                                        >
+                                            <path
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            d="M19 9l-7 7-7-7"
+                                            />
+                                        </svg>
+                                    </button>
+                                </div>
                             </div>
-                            <div v-for="item in auction" :key="item.id" class="bg-[#E6EEEF] p-4 m-2 rounded-lg flex justify-between  items-center">
+                            <div v-for="item in auction" :key="item.id" class="bg-white p-4 m-2 rounded-lg flex justify-between  items-center">
                                 <div>
                                     <div class="font-semibold">{{ item.name }}</div>
                                     <div class="text-gray-500 text-sm">{{ item.info }}</div>
