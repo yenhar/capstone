@@ -20,29 +20,22 @@ export default {
         'custom-gray':'#565656',
         'custom-green':'#bde5ac',
         'custom-green2':'#bde5ac',
+        'custom-white-green':'#E6EEEF',
+        
       },
       fontSize: {
-       
-        'custom-size': '1.4rem', // Custom size, e.g., 40px
+        'custom-size': '1.4rem',
       },
       height: {
-        '128': '32rem', // Custom height value (e.g., h-128)
-        '144': '36rem', // Another custom height value
+        '128': '32rem',
+        '144': '36rem',
         '162': '40rem',
-        'screen-90': '90vh', // Example of height using viewport units
+        'screen-90': '90vh',
       },
       fontFamily: {
-        sans: ['Exo', 'Helvetica', 'Arial', 'sans-serif'], // Add "Exo" to the sans font stack
+        sans: ['Exo', 'Helvetica', 'Arial', 'sans-serif'],
       },
-      keyframes: {
-        slideInLeft: {
-          '0%': { transform: 'translateX(-100%)', opacity: '0' },
-          '100%': { transform: 'translateX(0)', opacity: '1' },
-        },
-      },
-      animation: {
-        'slide-in-left': 'slideInLeft 0.5s ease-out forwards',
-      },
+      
       dropShadow: {
         '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
         '4xl': [
@@ -50,10 +43,18 @@ export default {
             '0 45px 65px rgba(0, 0, 0, 0.15)'
         ]
       },
-
-
+      scale: {
+        '102': '1.02',
+      },
+    },
+  },
+  variants: {
+    extend: {
+      scale: ['hover'],
+      opacity: ['hover'],
     },
   },
   plugins: [],
 }
+
 

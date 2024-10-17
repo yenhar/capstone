@@ -10,11 +10,11 @@
                         </div>
                         <p class="ml-16 truncate text- font-medium text-gray-500 text-right">{{ item.name }}</p>
                     </div>
-                    <div class="flex justify-end">
-                        <dd class="ml-16 flex items-baseline pb-6 sm:pb-4 text-right">
-                            <div class="text-xl font-semibold text-gray-900 text-right">{{ item.stat }}</div>
-                        </dd>
-                    </div>
+                <div class="flex justify-end">
+                    <dd class="ml-16 flex items-baseline pb-6 sm:pb-4 text-right">
+                        <div class="text-xl font-semibold text-gray-900 text-right">{{ item.stat }}</div>
+                    </dd>
+                 </div>
             </div>
         </div>
         <div>
